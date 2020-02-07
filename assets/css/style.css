@@ -1,0 +1,506 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.top{
+    height: 30px;
+    background-color: #333;
+}
+.topint{
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;    
+}
+.topleft{
+    float: left;
+    width: 50%;
+    height: 30px;        
+}
+.topright{
+    float: right;
+    width: 50%;
+    height: 30px;        
+    margin-top: -10px;    
+}
+
+.topleft ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topleft ul li{    
+    line-height: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+.topleft ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.topleft ul li .active{
+    color: lightslategrey;
+}
+
+.topbusca{
+    width: 110px;
+    height: 26px;
+    outline: 0;    
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+}
+.topright a{
+    float: right;
+    padding: 0;
+    border: 0;        
+}
+.topright input{
+    float: right;
+}
+.topright img{
+    margin-right: 4px;
+}
+
+.top2{
+    height: 95px;
+    color: #FFF;
+}
+.top2int{
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+.logo{
+    width: 230px;
+    height: 95px;
+    float: left;    
+}
+.logoimg{
+    margin-left: 65px;
+    margin-top: 2px;
+}
+.top2 .banner{
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    background-color: red;
+}
+
+.menu{
+    height: 40px;    
+    background-color: red;
+}
+.menuint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    height: 40px;    
+}
+.menumobile{
+    display: none;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFF;
+}
+.submenu{
+    width: 150px;    
+    background-color: red;
+    position: absolute;
+    display: none;
+}
+.submenuitem{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.submenuitem:hover{
+    background-color: rgb(255, 74, 74);
+}
+
+.not{
+    height: 40px;
+}
+.notint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;        
+}
+.notarea{
+    height: 28px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin-top: 10px;
+}
+.nottitulo{
+    background-color: red;
+    color: #FFF;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 16px;
+}
+.not_not{
+    color: #000;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.containerint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.cont_right{
+    width: 275px;
+    height: 200px;
+    float: right;    
+    margin-left: 12px;
+}
+.widget{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+.widget_titulo{
+    height: 30px;
+    border-bottom: 1px solid #CCC;
+    background-color: #ddd;
+    line-height: 30px;
+    padding-left: 5px;    
+    font-size: 14px;
+}
+.widget_conteudo{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.noticia_item{
+    font-size: 12px;
+    margin: 0px 7px;
+    padding: 10px 0px; 
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+    word-wrap: break-word;
+}
+.noticia_item a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cont_left{
+    width: 753px;
+    float: left;
+}
+.slideshow{
+    height: 335px;    
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.slideshow_area{
+    width: 10000px;
+    height: 335px;
+    transition: all 1s;
+}
+.slide{
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide_info{
+    height: 70px;
+    background-image:url('../images/degrade.png');
+    background-size: auto 70px;
+    margin-top: 265px;
+}
+.slide_info_titulo{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #FFF;
+    
+}
+.slide_info_subtitulo{
+    font-size: 13px;
+    padding-left: 15px;
+    color: #FFF;
+}
+
+.slide_ball{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+}
+.ball{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #CCC;
+    border-radius: 10px;
+}
+
+.not_area1{
+    width: 430px;
+    height: 420px;
+    float: left;    
+}
+.not_area2{
+    width: 320px;
+    height: 420px;
+    float: left;    
+}
+.not_img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #CCC;
+    padding: 3px;
+    float: left;
+}
+.not_item{
+    text-align: left;    
+    height: 88px;  
+    margin-top: 7px;  
+    margin-bottom: 7px;
+}
+.not_titulo{    
+    float: left;
+    margin-left: 6px;
+    font-size: 16px;
+    width: 226px;
+}
+.not_info{
+    width: 226px;
+    float: left;
+    font-size: 12px;
+    margin-left: 6px;
+    color: #999;
+}
+.not_big{
+    margin-left: 10px;
+}
+.not_big .not_img{
+    width: 384px;
+    height: 222px;
+}
+.not_big .not_img img{
+    width: 384px;
+    height: 222px;
+}
+.not_big .not_titulo{
+    font-size: 30px;
+    width: 384px;
+}
+
+
+@media only screen and (min-width:960px) and (max-width: 1109px){
+
+    .topint,
+    .topo2int,
+    .menuint,
+    .notint,
+    .containerint
+    {
+        max-width: 890px;
+    }
+    
+    #menu{
+        display: block !important;
+    }
+
+    .cont_left{
+        width: 600px;
+    }
+
+    .not_area1{
+        width: 278px;
+    }
+
+    .not_big .not_img{
+        width: 245px;
+    }
+    .not_big .not_img img{
+        width: 245px;
+    }
+    .not_big .not_titulo{
+        width: 245px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 960px){
+    .topint,
+    .topo2int,
+    .menuint,
+    .notint,
+    .containerint
+    {
+        max-width: 758px;
+    }
+
+    #menu{
+        display: block !important;
+    }
+
+    .top2 .logo{
+        margin: auto;
+        float: none;
+    }
+    .top2 .banner{
+        display: none;
+    }
+    .cont_right{
+        display: none;
+    }
+    .cont_left{
+        width: auto;        
+        float: none;
+    }
+    .not_area1{
+        width: 436px;
+    }
+
+    .not_big .not_img{
+        width: 410px;
+    }
+    .not_big .not_img img{
+        width: 410px;
+    }
+    .not_big .not_titulo{
+        width: 410px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 781px){
+    .topint,
+    .topo2int,
+    .menuint,
+    .notint,
+    .containerint
+    {
+        max-width: 320px;
+    }
+    .topleft{
+        display: none;
+    }
+    .topright{
+        width: 100%;
+        float: none;                
+        margin-top: -14px;          
+    }
+    .topright a{
+        float: none;        
+    }
+    .topright ul{
+        padding-inline-start: 20px;
+    }
+    .top2 .logo{
+        margin: auto;
+        float: none;
+    }
+    .top2 .banner{
+        display: none;
+    }
+    
+    .menumobile{
+        display: block;        
+    }
+    .menu ul{
+        position: absolute;
+        background-color: red;
+        z-index: 10;
+        display: none;
+    }
+    .menu li{
+        float: none;
+        height: auto;
+    }
+    .menu li img{
+        display: none;
+    }
+    .submenu{
+        position: static;
+        display: block;
+    }
+    .notarea{
+        display: none;
+    }
+    .cont_right{
+        display: none;
+    }
+    .cont_left{
+        width: auto;        
+        float: none;
+        margin-top: 10px;
+    }
+    .not_area1{
+        width: 320px;
+        height: auto;
+    }
+
+    .not_big .not_img{
+        width: 290px;
+    }
+    .not_big .not_img img{
+        width: 290px;
+    }
+    .not_big .not_titulo{
+        width: 290px;
+        font-size: 25px;
+    }
+
+    .not_area2{
+        width: 300px;
+        margin: auto;
+        float: none;
+        clear: both;
+        padding-top: 20px;
+    }
+    .not_item{
+        clear: both;
+    }
+    .not_titulo{
+        width: 206px;
+    }
+    .not_info{
+        width: 206px;
+    }
+}
+
+
+
+
+
+
